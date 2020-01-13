@@ -64,6 +64,7 @@ regButton.addEventListener('click', () => {
         regForm.classList.toggle('reg-form-display-block');
         logForm.classList.remove('login-form-display-block');
         localStorage.users = JSON.stringify(users);   
+        localStorage.setItem('loginedUser', login.value)
         document.location.href = 'task-manager.html';
     }
 })
