@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.container {
+    width: 400px;
+    position: absolute;
+    left: 40%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+ul {
+    width: 500px;
+}
+
+li {
+    position: relative;
+    list-style-type: none;
+    width: 500px;
+    text-align: left;
+    padding: 12px 16px 12px 0;
+    font-size: 20px;
+}
+
+ul li .text {
+    display: none;
+}
+
+ul li .text {
+    display:none;
+  } 
+  
+  ul li.editMode .text {
+    display:block;
+  }
+  
+  ul li.editMode label {
+    display:none;
+  }
+
+span {
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+    padding: 12px 16px 12px 0;
+}
+
+div {
+    position: absolute;
+    right: 80px;
+    top: 0;
+    padding: 12px 16px 12px 0;
+}
+
+.div-class {
+    cursor: pointer;
+}
+
+button {
+    background-color: #fff;
+    border: 1px solid #000;
+    height: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #000;
+    color: #fff;
+    transition: 0.2s ease-in;
+}
+
+.share-button {
+    position: absolute;
+    right: 30%;
+    top: 15px;
+}
+
+.input {
+    display: none;
+}
+
+.input-block {
+    display: inline-block;
+    position: absolute;
+    right: 50%;
+    top: 15px;
+}
+
+.p {
+    position: absolute;
+    left: 0;
+    top: 30px;
+}
+
+.one {
+    position: relative;
+    list-style-type: none;
+    width: 500px;
+    text-align: left;
+    padding: 12px 16px 12px 0;
+    font-size: 20px;
+}
+
+.log-out-btn {
+    position: absolute;
+    right: 20%;
+    top: 40px;
+}
+
+.out {
+    position: absolute;
+    right: 17%;
+}

@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    height: 100vh;
+}
+
+.container {
+    height: 100vh;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+button {
+    background-color: #fff;
+    border: 1px solid #000;
+    height: 20px;
+    cursor: pointer;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #000;
+    color: #fff;
+    transition: 0.2s ease-in;
+}
+
+form {
+    margin-top: 10px;
+}
+
+.red {
+    color: red;
+}
+
+.border-red {
+    border: 1px solid red;
+}
+
+.wrapper {
+    display: flex;
+    height: 100%;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.register-form {
+    display: none;
+}
+
+.login-form {
+    display: none;
+}
+
+.reg-form-display-block {
+    display: block;
+}
+
+.login-form-display-block {
+    display: block;
+}
